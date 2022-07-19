@@ -20,5 +20,6 @@ public class App
     
     public static void getData() {
     	System.out.println("i am from getdata method ");
+        //good but add another data please
     }
 }
