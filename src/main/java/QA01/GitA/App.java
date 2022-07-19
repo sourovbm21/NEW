@@ -15,6 +15,10 @@ public class App
         //ok thank you.
         //you done that awesome way.
         //Git done
-        
+        getData();
+    }
+    
+    public static void getData() {
+    	System.out.println("i am from getdata method ");
     }
 }
