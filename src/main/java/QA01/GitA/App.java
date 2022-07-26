@@ -16,9 +16,15 @@ public class App
         //you done that awesome way.
         //Git done
         getData();
+        getrow();
     }
     
-    public static void getData() {
+    private static void getrow() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void getData() {
     	System.out.println("i am from getdata method ");
         //good but add another data please
         //want to add another data ?
