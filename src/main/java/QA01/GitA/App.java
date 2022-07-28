@@ -12,11 +12,10 @@ public class App
         
         System.out.println("in side the Git--A");
         System.out.println("adding manually");
-        //ok thank you.
-        //you done that awesome way.
-        //Git done
+      
         getData();
         getrow();
+        //adding file
     }
     
     private static void getrow() {
