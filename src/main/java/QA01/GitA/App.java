@@ -15,15 +15,18 @@ public class App
       
         getData();
         getrow();
-        //adding file
+       
     }
     
     private static void getrow() {
-		// TODO Auto-generated method stub
+    	
+    	System.out.println("inside get row mehtod ");
 		
 	}
 
 	public static void getData() {
+		//adding some file today 
+		
     	System.out.println("i am from getdata method ");
         //good but add another data please
         //want to add another data ?
