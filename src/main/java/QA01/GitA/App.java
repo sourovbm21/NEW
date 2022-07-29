@@ -1,5 +1,7 @@
 package QA01.GitA;
 
+import static org.testng.Assert.ARRAY_MISMATCH_TEMPLATE;
+
 /**
  * Hello world!
  *
@@ -32,4 +34,13 @@ public class App
         //want to add another data ?
     	//trying to push from local
     }
+	
+	public void getDriver() {
+		
+	 // WebDriver driver = new ChromeDriver ();
+		//webdrivermanager.chrome.driver();
+	  
+	  
+		
+	}
 }
