@@ -32,5 +32,13 @@ public class HassanBanna {
 	
 		
 	}
+	
+	
+	@Test 
+	public void validateForgetPasswordLinkTest() {
+		//
+		
+		
+	}
 
 }
