@@ -35,5 +35,12 @@ public class WithNG {
 	//
     
 	}
+	@Test 
+	public void testSix() {
+		System.out.println("i am inside testSix Method");
+	System.out.println();
+	//
+    
+	}
 
 }
