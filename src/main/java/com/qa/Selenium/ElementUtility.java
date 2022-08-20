@@ -18,14 +18,14 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class Sele01 {
+public class ElementUtility {
 
 	
 		
 		private WebDriver driver;
 		private Actions act;
 
-		public Sele01(WebDriver driver) {
+		public ElementUtility(WebDriver driver) {
 			this.driver = driver;
 			act = new Actions(driver);
 		}
