@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-25T13:28:38 BST" name="Default suite" finished-at="2022-07-25T13:28:39 BST" duration-ms="108">
+  <suite started-at="2022-08-24T15:17:35 BST" name="Default suite" finished-at="2022-08-24T15:18:00 BST" duration-ms="24404">
     <groups>
     </groups>
-    <test started-at="2022-07-25T13:28:38 BST" name="Default test" finished-at="2022-07-25T13:28:39 BST" duration-ms="108">
-      <class name="QA01.GitA.WithNG">
-        <test-method signature="testFour()[pri:0, instance:QA01.GitA.WithNG@7a675056]" started-at="2022-07-25T13:28:39 BST" name="testFour" finished-at="2022-07-25T13:28:39 BST" duration-ms="13" status="PASS">
+    <test started-at="2022-08-24T15:17:35 BST" name="Default test" finished-at="2022-08-24T15:18:00 BST" duration-ms="24404">
+      <class name="com.qa.Selenium.DropDownBootAuto">
+        <test-method signature="auto_Suggestive_DropDown()[pri:0, instance:com.qa.Selenium.DropDownBootAuto@b62d79]" started-at="2022-08-24T15:17:35 BST" name="auto_Suggestive_DropDown" finished-at="2022-08-24T15:17:57 BST" duration-ms="21491" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method signature="testOne()[pri:0, instance:QA01.GitA.WithNG@7a675056]" started-at="2022-07-25T13:28:39 BST" name="testOne" finished-at="2022-07-25T13:28:39 BST" duration-ms="2" status="PASS">
+        </test-method> <!-- auto_Suggestive_DropDown -->
+        <test-method signature="boot_Streap_DropDown()[pri:0, instance:com.qa.Selenium.DropDownBootAuto@b62d79]" started-at="2022-08-24T15:17:57 BST" name="boot_Streap_DropDown" finished-at="2022-08-24T15:18:00 BST" duration-ms="2860" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method signature="testThree()[pri:0, instance:QA01.GitA.WithNG@7a675056]" started-at="2022-07-25T13:28:39 BST" name="testThree" finished-at="2022-07-25T13:28:39 BST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method signature="testTwo()[pri:0, instance:QA01.GitA.WithNG@7a675056]" started-at="2022-07-25T13:28:39 BST" name="testTwo" finished-at="2022-07-25T13:28:39 BST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- QA01.GitA.WithNG -->
+        </test-method> <!-- boot_Streap_DropDown -->
+      </class> <!-- com.qa.Selenium.DropDownBootAuto -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
