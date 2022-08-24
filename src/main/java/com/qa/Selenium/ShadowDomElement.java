@@ -3,9 +3,12 @@ package com.qa.Selenium;
 import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ShadowDomElement {
@@ -23,7 +26,7 @@ public class ShadowDomElement {
 		jse.executeScript("arguments[0].scrollIntoView();", ScrollingTo);
 		// Switch to frame
 		driver.switchTo().frame("pact");
-		// Loving tea
+		// Loving tea (inside open root shadow Dom )
 		WebElement elementTea = (WebElement) jse
 				.executeScript("return document.querySelector(\"#snacktime\").shadowRoot.querySelector(\"#tea\")");
 		String elementTeaValue = "arguments[0].setAttribute('value','Love Green Tea')";
@@ -34,7 +37,15 @@ public class ShadowDomElement {
 						+ ".shadowRoot.querySelector(\"#pizza\")");
 		String lunchItemValue = "arguments[0].setAttribute('value','Chicken Tikka Masala Please')";
 		jse.executeScript(lunchItemValue, elementLunch);
-
+		//closed shadow dom which is inside open shadow Dom
+		
+        //inside closed shadow Dom
+		driver.switchTo().defaultContent();
+		driver.findElement(By.xpath("//div[@id='userPass']")).click();
+		Actions ac = new Actions(driver);
+		ac.sendKeys(Keys.TAB).perform();
+		ac.sendKeys("sourov").perform();
+		
 		Thread.sleep(3000);
 		driver.quit();
 	}
