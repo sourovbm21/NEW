@@ -2,16 +2,12 @@ package com.qa.Selenium;
 
 import java.time.Duration;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
-
 public class DropDownBootAuto {
 	
 	
@@ -36,8 +32,7 @@ public class DropDownBootAuto {
 		System.out.println("single list : " +singleItem.getText());
 		if (singleItem.getText().equalsIgnoreCase("iphone 12 mini")) {
 			singleItem.click();
-		}
-		
+		}	
 	}
 		Thread.sleep(2000);
 		driver.quit();
