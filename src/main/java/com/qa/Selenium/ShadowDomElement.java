@@ -24,7 +24,7 @@ public class ShadowDomElement {
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		WebElement ScrollingTo = driver.findElement(By.xpath("//button[text()='Checkout here']"));
 		jse.executeScript("arguments[0].scrollIntoView();", ScrollingTo);
-		// Switch to frame
+		// Switch to frame with frame id 
 		driver.switchTo().frame("pact");
 		// Loving tea (inside open root shadow Dom )
 		WebElement elementTea = (WebElement) jse
